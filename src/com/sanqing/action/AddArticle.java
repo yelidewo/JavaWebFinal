@@ -1,8 +1,6 @@
 package com.sanqing.action;
 
 
-
-
 import java.util.Date;
 import java.util.Map;
 
@@ -39,6 +37,7 @@ public class AddArticle extends ActionSupport {
 		String username = (String) session.get("username");
 		
 		//封装一个PO类的对象
+		
 		Article article = new Article();
 		article.setTitle(title);
 		article.setContent(content);
